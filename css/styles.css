@@ -436,10 +436,7 @@ img{
 .clients-list{
   display: inline-flex;
 }
-/* 
-.clients-logo{
- 
-} */
+
 
 .client{
   display: flex;

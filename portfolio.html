@@ -45,11 +45,16 @@
         <ul class="contact-nav">
           <li class="item">
             <a class="contacts" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              > 
+              <svg width=16 height=12 class="button-icon">
+              <use href="./images/icons.svg#mail"></use>
+             </svg>info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contacts" href="tel:+380961111111"><svg width=10 height=16 class="button-icon">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg> +38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -71,15 +76,15 @@
 <!--Menu-->
           <ul class="cards">
             <li class="box">
-              <a href="#"
-                ><img
+              <a href="#">
+                <img
                   src="./images/portfolio/technokryak.jpg"
                   alt="Макбук"
                   width="370"
                 />
                 <div class="box-content"><h2 class="box-title">Технокряк</h2>
-                <p>Веб-сайт</p></a
-              ></div>
+                <p>Веб-сайт</p>
+              </div></a>
             </li>
             <li class="box">
               <a href="#">
@@ -88,9 +93,9 @@
                   alt="баскетбольні гравці"
                   width="370"
                 />
-                <div class="box-content"><h2 class="box-title">Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p></a
-              ></div>
+                <div class="box-content">
+                  <h2 class="box-title">Постер New Orlean vs Golden Star</h2>
+                <p>Дизайн</p></div></a>
             </li>
             <li class="box">
               <a href="#">
@@ -99,9 +104,9 @@
                   alt="вивіска ресторану"
                   width="370"
                 />
-                <div class="box-content"><h2 class="box-title">Ресторан Seafood</h2>
-                <p>Дизайн</p></a
-              ></div>
+                <div class="box-content">
+                  <h2 class="box-title">Ресторан Seafood</h2>
+                <p>Дизайн</p></div></a>
             </li>
             <li class="box">
               <a href="#"
@@ -110,9 +115,9 @@
                   alt="навушники"
                   width="370"
                 />
-                <div class="box-content"><h2 class="box-title">Проєкт Prime</h2>
-                <p>Маркетинг</p></a
-              ></div>
+                <div class="box-content">
+                  <h2 class="box-title">Проєкт Prime</h2>
+                <p>Маркетинг</p></div></a>
             </li>
             <li class="box">
               <a href="#"
@@ -121,9 +126,9 @@
                   alt="коробки"
                   width="370"
                 />
-                <div class="box-content"><h2 class="box-title">Проєкт Boxes</h2>
-                <p>Додаток</p></a
-              ></div>
+                <div class="box-content">
+                  <h2 class="box-title">Проєкт Boxes</h2>
+                <p>Додаток</p></div></a>
             </li>
             <li class="box">
               <a href="#">
@@ -132,9 +137,9 @@
                   alt="Макінтош"
                   width="370"
                 />
-                <div class="box-content"><h2 class="box-title">Inspiration has no Borders</h2>
-                <p>Веб-сайт</p></a
-              ></div>
+                <div class="box-content">
+                  <h2 class="box-title">Inspiration has no Borders</h2>
+                <p>Веб-сайт</p></div></a>
             </li>
             <li class="box">
               <a href="#"
@@ -143,9 +148,9 @@
                   alt="books"
                   width="370"
                 />
-                <div class="box-content"><h2 class="box-title">Видання Limited Edition</h2>
-                <p>Дизайн</p></a
-              ></div>
+                <div class="box-content">
+                  <h2 class="box-title">Видання Limited Edition</h2>
+                <p>Дизайн</p></div></a>
             </li>
             <li class="box">
               <a href="#"
@@ -154,9 +159,9 @@
                   alt="етикетка"
                   width="370"
                 />
-                <div class="box-content"><h2 class="box-title">Проєкт LAB</h2>
-                <p>маркетинг</p></a
-              ></div>
+                <div class="box-content">
+                  <h2 class="box-title">Проєкт LAB</h2>
+                <p>маркетинг</p></div></a>
             </li>
             <li class="box">
               <a href="#"
@@ -165,9 +170,9 @@
                   alt="макбук з бізнес сайтом на екрані"
                   width="370"
                 />
-                <div class="box-content"><h2 class="box-title">Growing Business</h2>
-                <p>Додаток</p></a
-              ></div>
+                <div class="box-content">
+                  <h2 class="box-title">Growing Business</h2>
+                <p>Додаток</p></div></a>
             </li>
           </ul>
         </div>
@@ -175,28 +180,38 @@
     </main>
     
 <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <a class="logo footer-logo" href="portfolio.html" lang="en"
-          >Web<span class="logo-studio-footer">Studio</span></a
-        >
-        <address>
+     <footer class="footer">
+      <div class="container footer-nav"> 
+         <div class="footer-contacts" >  
+          <a class="logo footer-logo" href="portfolio.html" lang="en"
+          >Web<span class="logo-studio-footer">Studio</span></a>
+       <address>
           <ul>
             <li>
-              <a class="footer-contacts address" href="#"> м. Київ, пр-т Лесі Українки, 26</a>
+              <a class="contact-footer address" href="#"> м. Київ, пр-т Лесі Українки, 26</a>
             </li>
             <li>
-              <a class="footer-contacts" href="mailto:info@devstudio.com">
+              <a class="contact-footer" href="mailto:info@devstudio.com">
                 info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="footer-contacts" href="tel:+380961111111">
+              <a class="contact-footer" href="tel:+380961111111">
                 +38 096 111 11 11</a
               >
             </li>
           </ul>
         </address>
+      </div> 
+        <div class="socials">
+          <p class="join">Приєднуйтесь</p>
+        <ul class="footer-socials-list">
+          <li class="socials-item"><a class="footers-social-link" href="#"><svg class="socials-logo" width="20" height="20" ><use href="./images/icons.svg#instagram"></use></svg></a></li>
+          <li class="socials-item"><a class="footers-social-link" href="#"><svg class="socials-logo" width="20" height="20" ><use href="./images/icons.svg#twitter"></use></svg></a></li>
+          <li class="socials-item"><a class="footers-social-link" href="#"><svg class="socials-logo" width="20" height="20" ><use href="./images/icons.svg#facebook"></use></svg></a></li>
+          <li class="socials-item"><a class="footers-social-link" href="#"><svg class="socials-logo" width="20" height="20" ><use href="./images/icons.svg#linkedin"></use></svg></a></li>
+        </ul>
+      </div>  
       </div>
     </footer>
   </body>
